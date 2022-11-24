@@ -31,7 +31,7 @@ $mahasiswa = query("SELECT * FROM mahasiswa");
 		<td><?= $i; ?></td>
 		<td>
 			<a href="">ubah</a> |
-			<a href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('yakin?');">hapus</a>
+			<a href="">hapus</a>
 		</td>
 		<td><?= $row["npm"]; ?></td>
 		<td><?= $row["nama"]; ?></td>
